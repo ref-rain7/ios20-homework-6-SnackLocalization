@@ -13,6 +13,9 @@
 		DAF19A2E257B73A90000E949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF19A2C257B73A90000E949 /* Main.storyboard */; };
 		DAF19A30257B73AB0000E949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF19A2F257B73AB0000E949 /* Assets.xcassets */; };
 		DAF19A33257B73AB0000E949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF19A31257B73AB0000E949 /* LaunchScreen.storyboard */; };
+		DAF19A3D257B74640000E949 /* Localization.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DAF19A3C257B74640000E949 /* Localization.mlmodel */; };
+		DAF19A41257B75010000E949 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF19A40257B75010000E949 /* VideoCapture.swift */; };
+		DAF19A50257BAE420000E949 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF19A4F257BAE420000E949 /* BoundingBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DAF19A2F257B73AB0000E949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF19A32257B73AB0000E949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAF19A34257B73AB0000E949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF19A3C257B74640000E949 /* Localization.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Localization.mlmodel; sourceTree = "<group>"; };
+		DAF19A40257B75010000E949 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		DAF19A4F257BAE420000E949 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				DAF19A26257B73A90000E949 /* AppDelegate.swift */,
 				DAF19A28257B73A90000E949 /* SceneDelegate.swift */,
+				DAF19A4F257BAE420000E949 /* BoundingBox.swift */,
 				DAF19A2A257B73A90000E949 /* ViewController.swift */,
+				DAF19A3C257B74640000E949 /* Localization.mlmodel */,
+				DAF19A40257B75010000E949 /* VideoCapture.swift */,
 				DAF19A2C257B73A90000E949 /* Main.storyboard */,
 				DAF19A2F257B73AB0000E949 /* Assets.xcassets */,
 				DAF19A31257B73AB0000E949 /* LaunchScreen.storyboard */,
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAF19A2B257B73A90000E949 /* ViewController.swift in Sources */,
+				DAF19A41257B75010000E949 /* VideoCapture.swift in Sources */,
+				DAF19A3D257B74640000E949 /* Localization.mlmodel in Sources */,
+				DAF19A50257BAE420000E949 /* BoundingBox.swift in Sources */,
 				DAF19A27257B73A90000E949 /* AppDelegate.swift in Sources */,
 				DAF19A29257B73A90000E949 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62TKMM5MWT;
 				INFOPLIST_FILE = SnackLocalization/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62TKMM5MWT;
 				INFOPLIST_FILE = SnackLocalization/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
