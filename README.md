@@ -1,3 +1,3 @@
-### screenshots
+### screenshots(iPod touch 6)
 
-![](screenshots.png)
+![](screenshots-iPod_touch_6.png)
