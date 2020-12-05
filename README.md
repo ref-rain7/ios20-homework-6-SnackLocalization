@@ -1,3 +1,3 @@
-### scrrenshots
+### screenshots
 
 ![](screenshots.png)
